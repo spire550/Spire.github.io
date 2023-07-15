@@ -20,9 +20,8 @@ var quotes = [
 ];
 var lastrandom;
 
- var generateQuote = function () {
+var generateQuote = function () {
   
-
   do {
     var arrayindex = Math.floor(Math.random() * quotes.length);
   } while (arrayindex === lastrandom);
@@ -30,16 +29,10 @@ var lastrandom;
   document.getElementById(
     "quotes"
   ).innerHTML = `\"${quotes[arrayindex].quoute}\"`;
-  document.getElementById(
-    "author"
-  ).innerHTML = `${quotes[arrayindex].auther}`;
+  document.getElementById("author").innerHTML = `${quotes[arrayindex].auther}`;
 };
 
 x = document.getElementById("generate");
 x.onclick = function () {
   generateQuote();
-
 };
- 
-
-
