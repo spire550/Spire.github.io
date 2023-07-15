@@ -24,7 +24,7 @@ var lastrandom;
   
 
   do {
-    var arrayindex = Math.floor(Math.random() * quotes.length;
+    var arrayindex = Math.floor(Math.random() * quotes.length);
   } while (arrayindex === lastrandom);
   lastrandom = arrayindex;
   document.getElementById(
