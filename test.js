@@ -35,4 +35,5 @@ var generateQuote = function () {
 x = document.getElementById("generate");
 x.onclick = function () {
   generateQuote();
+  console.log("done");
 };
