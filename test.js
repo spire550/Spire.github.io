@@ -21,10 +21,10 @@ var quotes = [
 var lastrandom;
 
  var generateQuote = function () {
-  var min = 0,
-    max = quotes.length;
+  
+
   do {
-    var arrayindex = Math.floor(Math.random() * (max - min)) + min;
+    var arrayindex = Math.floor(Math.random() * quotes.length;
   } while (arrayindex === lastrandom);
   lastrandom = arrayindex;
   document.getElementById(
