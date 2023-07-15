@@ -1,0 +1,15 @@
+body{
+  background-color: #587c99;
+}
+.fig{
+border-left: 0.35rem solid #fcdb5e;
+border-top: 1px solid #eee;
+border-right: 1px solid #eee;
+border-bottom: 1px solid #eee;
+}
+button:hover{
+  background-color: #c59b05 !important;
+}
+body{
+  font-size: 24px;
+}

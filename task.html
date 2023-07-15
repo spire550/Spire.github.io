@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/all.css" />
+  </head>
+  <body >
+    <section class="vh-100">
+      <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+          <div class="col-md-12 col-xl-6">
+            <div class="text-center">
+              <h1 class="text-warning-emphasis ">Quote of the Day</h1>
+              <p >Press the button below to recieve a random quote!</p>
+              <button class="bg-danger btn my-3" id="generate">
+                Get A Quote!
+              </button>
+            </div>
+            <figure class="fig bg-light p-4 rounded-2 shadow-sm">
+              <i
+                class="fas fa-quote-left fa-2x mb-4"
+                style="color: #fcdb5e"
+              ></i>
+              <blockquote class="blockquote pb-2">
+                <p id="quotes"></p>
+              </blockquote>
+              <figcaption
+                class="blockquote-footer mb-0"
+                id="author"
+              ></figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="test.js"></script>
+  </body>
+</html>
